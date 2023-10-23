@@ -238,148 +238,161 @@ export const sponsorsData = [
 export const featuresData = [
   {
     id: "feature-1",
-    imgUrl: "feature01.svg",
-    title: "Networking",
-    desc: "Lorem ipsum dolor sit amet consectetur. Pulvinar nec cursus sagittis aliquet fames.",
+    imgUrl: "feature03.svg",
+    title: "Communauté Innovante",
+    desc: "Rejoindre Rayis Developers, c'est faire partie d'une communauté dynamique et avant-gardiste où les membres échangent des idées innovantes et les dernières avancées technologiques. Vous ferez partie d'un groupe qui valorise la créativité et les solutions de pointe.",
   },
   {
     id: "feature-2",
     imgUrl: "feature02.svg",
-    title: "Great Speaker",
-    desc: "Lorem ipsum dolor sit amet consectetur. Suscipit nisl tellus eu dui ac consequat morbi.",
+    title: "Rester à Jour",
+    desc: "La technologie évolue rapidement, et rester à jour est essentiel. Rayis Developers offre une plateforme pour accéder aux dernières tendances, outils et techniques de l'industrie technologique, garantissant que vous restiez à l'avant-garde des avancées technologiques.",
   },
   {
     id: "feature-3",
-    imgUrl: "feature03.svg",
-    title: "New People",
-    desc: "Lorem ipsum dolor sit amet consectetur. Feugiat risus non sit non eget libero.",
+    imgUrl: "feature01.svg",
+    title: "Articles Technologiques",
+    desc: "Rayis Developers propose un riche répertoire d'articles technologiques rédigés par des experts. Ces articles offrent des informations précieuses, des tutoriels et des meilleures pratiques dans divers domaines technologiques, vous permettant d'améliorer vos connaissances et compétences.",
   },
+  {
+    id: "feature-4",
+    imgUrl: "feature04.svg",
+    title: "Giveaways Exclusifs",
+    desc: "Rayis Developers organise régulièrement des giveaways excitants qui offrent des opportunités de remporter des produits et des services de pointe. En participant, vous augmentez vos chances d'acquérir des actifs technologiques précieux.",
+  },
+  // {
+  //   id: "feature-5",
+  //   imgUrl: "feature05.svg",
+  //   title: "Communauté Diversifiée",
+  //   desc: "Rayis Developers réunit une communauté diversifiée d'enthousiastes de la technologie, des nouveaux venus aux professionnels chevronnés. Cette diversité favorise un environnement de soutien pour le réseautage, l'apprentissage et la collaboration.",
+  // },
+  // {
+  //   id: "feature-6",
+  //   imgUrl: "feature06.svg",
+  //   title: "Amélioration des Compétences",
+  //   desc: "Interagir avec d'autres développeurs et passionnés de la technologie peut améliorer vos compétences grâce à la connaissance partagée, aux commentaires et à l'expérience du monde réel. Vous pouvez grandir personnellement et professionnellement au sein de la communauté.",
+  // },
+  // {
+  //   id: "feature-7",
+  //   imgUrl: "feature07.svg",
+  //   title: "Réseautage Professionnel",
+  //   desc: "Rayis Developers offre des opportunités de se connecter avec des individus partageant les mêmes intérêts, y compris des collaborateurs potentiels, des mentors et des opportunités d'emploi. Bâtir un solide réseau professionnel peut être un avantage considérable dans l'industrie technologique.",
+  // },
+  // {
+  //   id: "feature-8",
+  //   imgUrl: "feature08.svg",
+  //   title: "Croissance Personnelle",
+  //   desc: "Faire partie d'une communauté technologique comme Rayis Developers peut contribuer à votre croissance personnelle. Cela vous encourage à réfléchir de manière critique, à résoudre des problèmes complexes et à explorer de nouvelles perspectives, favorisant votre développement global.",
+  // },
+  // {
+  //   id: "feature-9",
+  //   imgUrl: "feature09.svg",
+  //   title: "Soutien et Conseils",
+  //   desc: "Rayis Developers fournit une plateforme où vous pouvez demander des conseils et du soutien lorsque vous faites face à des défis techniques ou que vous poursuivez de nouveaux projets. La communauté est une ressource précieuse pour le dépannage et la résolution de problèmes.",
+  // },
+  // {
+  //   id: "feature-10",
+  //   imgUrl: "feature10.svg",
+  //   title: "Contribuer à la Tech Africaine",
+  //   desc: "En rejoignant Rayis Developers, vous devenez un acteur de l'effort visant à promouvoir les avancées technologiques en Afrique. Vos contributions et interactions peuvent jouer un rôle dans la définition de l'avenir de la tech sur le continent.",
+  // },
 ];
+
+
 
 export const ticketsData = [
   {
-    id: "pricing-1",
-    title: "Basic Pass",
-    price: "$19.99",
-    isPopular: false,
+    id: "pricing-giveaway",
+    title: "Plan Giveaway",
+    price: "2000 FCFA",
+    amount: 2000, 
+    isPopular: true, // You can set this to true if it's a popular plan
     includes: [
       {
-        item: "Feature text goes here",
+        item: "Participation illimitée aux giveaways excitants.", // Unlimited participation in exciting giveaways.
       },
       {
-        item: "Feature text goes here",
+        item: "Priorité dans la sélection des gagnants.", // Priority in winner selection.
       },
       {
-        item: "Feature text goes here",
-      },
-    ],
-  },
-  {
-    id: "pricing-2",
-    title: "Business Pass",
-    price: "$29.99",
-    isPopular: true,
-    includes: [
-      {
-        item: "Feature text goes here",
+        item: "Accès exclusif à des offres spéciales.", // Exclusive access to special offers.
       },
       {
-        item: "Feature text goes here",
-      },
-      {
-        item: "Feature text goes here",
-      },
-    ],
-  },
-  {
-    id: "pricing-3",
-    title: "Enterprise Pass",
-    price: "$49.99",
-    isPopular: false,
-    includes: [
-      {
-        item: "Feature text goes here",
-      },
-      {
-        item: "Feature text goes here",
-      },
-      {
-        item: "Feature text goes here",
-      },
-      {
-        item: "Feature text goes here",
+        item: "Opportunité de gagner des produits et services de pointe.", // Opportunity to win cutting-edge products and services.
       },
     ],
   },
 ];
 
-export const faqData = [
+export const  faqData = [
   {
     id: "faq-1",
-    title: "Do I have to buy a ticket to participate?",
+    title: "Dois-je acheter un billet pour participer ?",
     children:
-      "Lorem ipsum dolor sit amet consectetur. Lectus ac malesuada blandit tempus et. Eu non suspendisse aliquam eget ullamcorper enim curabitur sed. Congue pretium porttitor sit in non phasellus purus viverra et. Sed consequat fringilla ac dignissim tincidunt tristique vestibulum. At viverra consectetur placerat ut nibh enim in urna id. Dignissim vitae arcu neque auctor sit lorem egestas ut eros. In aliquam quis eu hendrerit suspendisse leo arcu eu morbi. Ipsum orci in ullamcorper metus sed sit vitae quisque. Porta adipiscing mauris accumsan augue faucibus sapien aenean. Elementum id amet sem molestie dolor enim lobortis nisl. Ultricies in sociis nunc quam ornare dignissim. Eget aliquet sit egestas ac mauris. Curabitur accumsan felis elementum vel cursus pellentesque.",
+      "Non, la participation à Rayis Developers est gratuite. Vous n'avez pas besoin d'acheter de billet pour participer à notre communauté, accéder aux articles technologiques ou vous inscrire à nos giveaways. Nous croyons en la libre participation et à l'échange d'idées, et nous encourageons les passionnés de la technologie à rejoindre notre communauté sans frais."
   },
   {
     id: "faq-2",
-    title: "What are the differences between the tickets?",
+    title: "Comment puis-je m'inscrire aux giveaways ?",
     children:
-      "Lorem ipsum dolor sit amet consectetur. Lectus ac malesuada blandit tempus et. Eu non suspendisse aliquam eget ullamcorper enim curabitur sed. Congue pretium porttitor sit in non phasellus purus viverra et. Sed consequat fringilla ac dignissim tincidunt tristique vestibulum. At viverra consectetur placerat ut nibh enim in urna id. Dignissim vitae arcu neque auctor sit lorem egestas ut eros. In aliquam quis eu hendrerit suspendisse leo arcu eu morbi. Ipsum orci in ullamcorper metus sed sit vitae quisque. Porta adipiscing mauris accumsan augue faucibus sapien aenean. Elementum id amet sem molestie dolor enim lobortis nisl. Ultricies in sociis nunc quam ornare dignissim. Eget aliquet sit egestas ac mauris. Curabitur accumsan felis elementum vel cursus pellentesque.",
+      "L'inscription aux giveaways de Rayis Developers est simple. Il vous suffit de consulter nos offres exclusives, de choisir celles qui vous intéressent, de vous inscrire et de payer une modeste contribution pour valider votre participation. Vous pouvez vous inscrire autant de fois que vous le souhaitez pour augmenter vos chances de gagner !"
   },
   {
     id: "faq-3",
-    title: "Will a certificate be issued?",
+    title: "Comment puis-je contribuer à la communauté Rayis Developers ?",
     children:
-      "Lorem ipsum dolor sit amet consectetur. Lectus ac malesuada blandit tempus et. Eu non suspendisse aliquam eget ullamcorper enim curabitur sed. Congue pretium porttitor sit in non phasellus purus viverra et. Sed consequat fringilla ac dignissim tincidunt tristique vestibulum. At viverra consectetur placerat ut nibh enim in urna id. Dignissim vitae arcu neque auctor sit lorem egestas ut eros. In aliquam quis eu hendrerit suspendisse leo arcu eu morbi. Ipsum orci in ullamcorper metus sed sit vitae quisque. Porta adipiscing mauris accumsan augue faucibus sapien aenean. Elementum id amet sem molestie dolor enim lobortis nisl. Ultricies in sociis nunc quam ornare dignissim. Eget aliquet sit egestas ac mauris. Curabitur accumsan felis elementum vel cursus pellentesque.",
+      "Nous encourageons vivement les membres à contribuer à notre communauté. Vous pouvez partager des articles, des idées innovantes, ou même proposer des projets. Si vous souhaitez devenir un rédacteur pour notre blog, n'hésitez pas à nous contacter. Nous valorisons la diversité des contributions et sommes ouverts aux nouvelles idées."
   },
   {
     id: "faq-4",
-    title: "Is attendance mandatory for the certificate?",
+    title: "Où puis-je trouver des informations sur les prochains événements ?",
     children:
-      "Lorem ipsum dolor sit amet consectetur. Lectus ac malesuada blandit tempus et. Eu non suspendisse aliquam eget ullamcorper enim curabitur sed. Congue pretium porttitor sit in non phasellus purus viverra et. Sed consequat fringilla ac dignissim tincidunt tristique vestibulum. At viverra consectetur placerat ut nibh enim in urna id. Dignissim vitae arcu neque auctor sit lorem egestas ut eros. In aliquam quis eu hendrerit suspendisse leo arcu eu morbi. Ipsum orci in ullamcorper metus sed sit vitae quisque. Porta adipiscing mauris accumsan augue faucibus sapien aenean. Elementum id amet sem molestie dolor enim lobortis nisl. Ultricies in sociis nunc quam ornare dignissim. Eget aliquet sit egestas ac mauris. Curabitur accumsan felis elementum vel cursus pellentesque.",
+      "Pour obtenir des informations sur nos prochains événements, veuillez consulter la section 'Événements' sur notre site web. Nous tenons nos membres informés des prochaines activités, conférences, et meetups via notre newsletter, alors assurez-vous de vous inscrire pour ne rien manquer !"
+  },
+  {
+    id: "faq-5",
+    title: "Comment puis-je contacter le support de Rayis Developers ?",
+    children:
+      "Si vous avez des questions, des préoccupations ou besoin d'assistance, notre équipe de support est là pour vous aider. Vous pouvez nous contacter en utilisant le formulaire de contact sur notre site web, ou en nous envoyant un e-mail à support@rayisdevelopers.com. Nous sommes là pour vous assister et répondre à vos besoins."
   },
 ];
 
+
 export const testimonialsData = [
   {
-    id: "testimonials-01",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur. Ante eget nascetur sed pellentesque ut sagittis sed elementum eget.",
-    imgUrl: "/testimonials-01.jpg",
-    name: "Rayford Chenail",
-    title: "Marketing Coordinator",
+    id: "témoignages-01",
+    comment: "Rayis Developers est une communauté incroyable pour les passionnés de la technologie. J'y ai découvert des idées innovantes et des technologies de pointe. C'est une source inestimable d'inspiration.",
+    imgUrl: "/témoignages-01.jpg",
+    name: "Marie Dupont",
+    title: "Développeuse Web",
   },
   {
-    id: "testimonials-02",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur. Ante eget nascetur sed pellentesque ut sagittis sed elementum eget.",
-    imgUrl: "/testimonials-02.jpg",
-    name: "Jamel Eusebio",
-    title: "Project Manager",
+    id: "témoignages-02",
+    comment: "Rejoindre Rayis Developers a été une décision judicieuse pour ma carrière. J'ai pu accéder à des articles technologiques de haute qualité et à une communauté très réactive.",
+    imgUrl: "/témoignages-02.jpg",
+    name: "Jean-Pierre Lefebvre",
+    title: "Ingénieur Logiciel",
   },
   {
-    id: "testimonials-03",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur. Ante eget nascetur sed pellentesque ut sagittis sed elementum eget.",
-    imgUrl: "/testimonials-03.jpg",
-    name: "Roselle Ehrman",
-    title: "Web Designer",
+    id: "témoignages-03",
+    comment: "Je tiens à remercier Rayis Developers pour les opportunités incroyables que j'ai eues. Les giveaways exclusifs sont un vrai plus !",
+    imgUrl: "/témoignages-03.jpg",
+    name: "Amélie Martin",
+    title: "Étudiante en Informatique",
   },
   {
-    id: "testimonials-04",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur. Ante eget nascetur sed pellentesque ut sagittis sed elementum eget.",
-    imgUrl: "/testimonials-02.jpg",
-    name: "Jamel Eusebio",
-    title: "Project Manager",
+    id: "témoignages-04",
+    comment: "Rayis Developers est bien plus qu'une communauté de développeurs. C'est un espace où l'on grandit en tant que professionnel et en tant que personne.",
+    imgUrl: "/témoignages-04.jpg",
+    name: "Lucas Dubois",
+    title: "Ingénieur Front-End",
   },
   {
-    id: "testimonials-05",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur. Ante eget nascetur sed pellentesque ut sagittis sed elementum eget.",
-    imgUrl: "/testimonials-01.jpg",
-    name: "Darron Kulikowski",
-    title: "Web Designer",
+    id: "témoignages-05",
+    comment: "Je suis reconnaissant pour le soutien et les conseils que j'ai reçus au sein de cette communauté. C'est bien plus qu'une communauté de développeurs, c'est une famille.",
+    imgUrl: "/témoignages-05.jpg",
+    name: "Sophie Rousseau",
+    title: "Passionnée de Tech",
   },
 ];
 

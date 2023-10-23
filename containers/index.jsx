@@ -9,4 +9,6 @@ import Testimonials from "./Testimonials"
 import Gallery from "./Gallery"
 import Info from "./Info"
 import FAQ from "./FAQ"
-export {Hero,About,Speakers,Schedule,Sponsors,Features,Tickets,Testimonials,Gallery,Info,FAQ}
+import GiveawaysSection from "./GiveawaySection"
+
+export {Hero,About,Speakers,Schedule,Sponsors,Features,Tickets,Testimonials,Gallery,Info,FAQ, GiveawaysSection}

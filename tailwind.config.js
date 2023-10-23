@@ -1,12 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require('tailwindcss/colors')
+const {nextui} = require("@nextui-org/react");
+
 module.exports = {
   content: [
     "./app/**/*.{html,js,jsx}",
     "./components/**/*.{html,js,jsx}",
     "./containers/**/*.{html,js,jsx}",
     "./pages/**/*.{html,js,jsx}",
-    "./styles/**/*.{js,jsx}"
+    "./styles/**/*.{js,jsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     fontFamily:{
@@ -45,5 +48,8 @@ module.exports = {
     extend: {},
 
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    nextui(),
+  ],
 }

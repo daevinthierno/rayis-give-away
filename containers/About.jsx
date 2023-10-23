@@ -17,16 +17,13 @@ const About = () => {
       >
         <div className="flex flex-col mt-8 lg:mt-0">
           <motion.h2 variants={textVariant(0.3)} className=" text-white mb-2">
-            Service with 30+ years <br /> of experience
+          Découvrez le Futur de la Technologie
           </motion.h2>
           <motion.p
             variants={textVariant(0.4)}
             className="text-dimWhite max-w-[500px] mb-4"
           >
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Explorez notre collection d'articles technologiques rédigés par des experts. Que vous soyez intéressé par l'intelligence artificielle, le développement web, la cybersécurité ou d'autres sujets liés à la tech, nous avons les informations dont vous avez besoin pour rester en avance sur le jeu.
           </motion.p>
           <motion.div
             variants={fadeIn("up", "tween", 0.3, 1)}

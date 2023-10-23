@@ -4,7 +4,28 @@ import Button from "../button";
 import { IconCheck } from "../icons";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
+import PaymentCard from "@/components/paymentCard";
+import {useState} from "react";
+
+
 export const Pricing = ({ pricingData }) => {
+
+  const [openModal, setOpenModal] = useState(false);
+
+  const [selectedTicket, setSelectedTicket] = useState(null)
+
+  const handleButtonClick = (data) => {
+      console.log(data)
+      setSelectedTicket(data)
+        setOpenModal(true);
+        console.log(openModal); // This will log the current state of openModal
+    };
+
+  const setCloseModal = (data) =>{
+      setOpenModal(data);
+      console.log(openModal);
+  }
+
   return (
     <div
       className={`${styles.flexCenter} flex-1 lg:flex-row flex-col items-stretch space-y-8 lg:space-x-8 lg:space-y-0`}
@@ -52,7 +73,10 @@ export const Pricing = ({ pricingData }) => {
               </ul>
             </div>
           </div>
-          <Button>Buy Ticket</Button>
+          <Button onClick={()=>{
+                    handleButtonClick(pricing)
+                }}>Souscrire</Button>
+          {/* <PaymentCard openModal={openModal} setCloseModal={setCloseModal} ticket={selectedTicket} ></PaymentCard> */}
         </motion.div>
       ))}
     </div>

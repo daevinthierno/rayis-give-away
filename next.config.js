@@ -1,9 +1,11 @@
+const withBuilderDevTools = require("@builder.io/dev-tools/next")();
+
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig = withBuilderDevTools({
   experimental: {
     appDir: true,
   },
-  reactStrictMode:false
-}
+  reactStrictMode: false,
+});
 
-module.exports = nextConfig
+module.exports = nextConfig;
